@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context="trust.memory.bulut.trustyourmemory.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="PLAY"
+                android:id="@+id/oyna"
+                android:layout_weight="1"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HOW TO PLAY"
+                android:id="@+id/nasiloynanir"
+                android:layout_weight="1"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EXIT"
+                android:id="@+id/cikis"
+                android:layout_weight="1"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

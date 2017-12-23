@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context="trust.memory.bulut.trustyourmemory.Basla">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EASY"
+                android:id="@+id/kolay"
+                android:layout_weight="1"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="65dp"
+            android:paddingLeft="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="MEDIUM"
+                android:id="@+id/orta"
+                android:layout_weight="1"
+                android:paddingRight="65dp"
+                android:paddingLeft="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="HARD"
+                android:id="@+id/zor"
+                android:layout_weight="1"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="65dp"
+            android:paddingLeft="65dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:id="@+id/geri"
+                android:layout_weight="1"
+                android:paddingRight="65dp"
+                android:paddingLeft="65dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
